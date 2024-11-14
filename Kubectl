@@ -1,0 +1,23 @@
+# Kube CTL presentation
+
+kubectal delete - i (don't brick innteractive deleting) ask to confirm
+accidently brick cluster by deleting all the namespaces
+
+# kuberc
+uses client-side apply by default
+recommended to use kubectl apply --server-side=true
+
+kubectl analyze: determine the parts that are static and reprecent in the analyze file
+
+
+kubectl inspect pod/pod1
+alpha in 1.33
+to enable 'export KUBECTL_KUBERC=true'
+
+Future things
+
+multiple kubeconfig support
+JSONPath improvements or alternatives
+CRI Native Container Copy
+
+
