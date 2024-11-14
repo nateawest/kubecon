@@ -1,0 +1,48 @@
+# Celebrating Prometheus 3.0
+
+Whats new prometheus 3.0
+Metrics-based mon itoring and alerting stack
+* all the metric collection and storage
+* query metrics and alerting
+* Dashboarding
+
+Whats new
+* 4 main releases -2.51 to 2.55
+* 1 LTS release - 2.45.5 to 2.45.6
+* prometheus/alertmanager 0.28
+ 
+new UI and UX
+* built from ground up and very different
+* query explainer: straight up what your query is doing
+
+Native Histograms
+* give you a good way to determine how something is behaving
+* help you figure out what are the really slow queries
+* new style is simpler
+* native histograms in prometheus and open telemetry were made 100% the same
+
+Remote Write 2.0
+* pull based for a reason
+* pulling data the write thing
+* Talos(uh maybe a dif word maybe not talos) built around prometheus
+* Completely overhauled Remote-write
+* uses symbol training now
+
+Using prometheus as your opentelemetry backend
+* enable the OTLP reciever
+* can push to prometheus
+* problem with push could be out of order data
+
+exposing format and quoting can use the same
+
+Pull model gets you better properties. More upfront work.
+
+Changes to alert manager
+* support utf
+* alerts with emjois 
+* integrations with pajor duty and ops g and Slack v1 but not v2
+
+new explain ux a plan to get that into grafana
+
+
+
